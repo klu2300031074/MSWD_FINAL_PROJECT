@@ -9,7 +9,7 @@ function FacultyList() {
   const [position, setPosition] = useState('');
   const [editingId, setEditingId] = useState(null);
 
-  const API_URL = "http://localhost:5000/api/faculties";
+  const API_URL = "https://mswd-final-project.onrender.com/api/faculties";
 
   useEffect(() => {
     fetchFaculties();
